@@ -425,3 +425,78 @@ img{
   cursor: pointer; 
 }
 
+<<<<<<< HEAD
+=======
+/* Recherche */
+.search-container {
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Page Détails */
+.detail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.buy-button {
+  background: #FFD814;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.buy-button:hover {
+  background: #f7ca00;
+}
+
+.price-tag {
+  font-size: 24px;
+  font-weight: bold;
+  color: #B12704;
+  margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .detail-container { grid-template-columns: 1fr; }
+}
+
+.categories-container {
+  display: flex;
+  overflow-x: auto; /* Permet de défiler les 15 catégories sans casser le design */
+  white-space: nowrap;
+  padding: 10px;
+  gap: 10px;
+}
+.categories-container::-webkit-scrollbar {
+  display: none; /* Cache la barre pour un look propre */
+}
+>>>>>>> ae4ca85 (affiliate-site)
