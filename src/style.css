@@ -425,8 +425,6 @@ img{
   cursor: pointer; 
 }
 
-<<<<<<< HEAD
-=======
 /* Recherche */
 .search-container {
   margin-top: 20px;
@@ -499,4 +497,3 @@ img{
 .categories-container::-webkit-scrollbar {
   display: none; /* Cache la barre pour un look propre */
 }
->>>>>>> ae4ca85 (affiliate-site)
